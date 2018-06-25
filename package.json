@@ -10,7 +10,8 @@
     "lint": "eslint .",
     "serve": "node dist/index.js",
     "start": "nodemon src/index.js --exec babel-node",
-    "test": "babel-node spec/run.js"
+    "test": "babel-node spec/run.js",
+    "test:watch": "nodemon --exec babel-node spec/run.js"
   },
   "dependencies": {},
   "devDependencies": {
